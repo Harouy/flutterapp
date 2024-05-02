@@ -47,7 +47,7 @@ class _ImpotTSC extends ConsumerState<ImpotTSC> {
     setState(() {
       bannerAd = BannerAd(
           size: AdSize.banner,
-          adUnitId: "ca-app-pub-6568047370472354/9039217423",
+          adUnitId: "X",
           listener: BannerAdListener(
             onAdLoaded: (ad) => print('Ad loaded'),
             onAdClosed: (ad) => print('Ad closed'),
